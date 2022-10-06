@@ -10,7 +10,6 @@ interface TodoListProps {
 
 const TodoList: React.FC<TodoListProps> = ({ items, onDeleteTodo }) => {
     
-
     return (
         <ul>
             {items.map(todo => (
